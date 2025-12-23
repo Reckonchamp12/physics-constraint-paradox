@@ -2,7 +2,7 @@
 Main entry point to reproduce all paper figures.
 
 This script orchestrates the generation of all figures and analyses
-presented in the paper.
+presented in the paper. Run with: python run_experiments.py
 """
 
 import numpy as np
@@ -167,25 +167,25 @@ def main():
     print("="*80)
     
     # Import and run figure generation scripts
-    print("\nGenerating Figure 1: Example Spectra...")
-    from figures.fig1_example_spectra import create_figure1
-    create_figure1(results)
+    print("\nGenerating Figure: Example Spectra...")
+    from figures.example_spectra import create_example_spectra
+    create_example_spectra(results)
     
-    print("\nGenerating Figure 3: Bandwidth Distribution...")
-    from figures.fig3_bandwidth_distribution import create_figure3
-    create_figure3(results)
+    print("\nGenerating Figure: Bandwidth Distribution...")
+    from figures.bandwidth_distribution import create_bandwidth_distribution
+    create_bandwidth_distribution(results)
     
-    print("\nGenerating Figure 4: Negative Absorption Diagnostics...")
-    from figures.fig4_negative_absorption import create_figure4
-    create_figure4(results)
+    print("\nGenerating Figure: Negative Absorption Diagnostics...")
+    from figures.negative_absorption import create_negative_absorption
+    create_negative_absorption(results)
     
     print("\n" + "="*80)
     print("ANALYSIS COMPLETE")
     print("="*80)
     print("\nGenerated files:")
-    print("- figures/fig1_example_spectra.png")
-    print("- figures/fig3_bandwidth_distribution.png")
-    print("- figures/fig4_negative_absorption.png")
+    print("- figures/example_spectra.png")
+    print("- figures/bandwidth_distribution.png")
+    print("- figures/negative_absorption.png")
     print("- results/ablation_summary.json")
     print("- results/*_data.npz (data files for each variant)")
     print("\nAll paper figures have been reproduced successfully!")
