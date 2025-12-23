@@ -107,3 +107,52 @@ physics-constraint-paradox/
 ├── LICENSE
 └── README.md
 ```
+## Reproducing Paper Figures
+
+All figures from the paper can be reproduced with a single command:
+
+```bash
+python run_experiments.py
+```
+This will generate:
+
+Figure 1: Example spectra from reference generator 
+
+Figure 2: Bandwidth distribution comparison across 
+
+Figure 3: Negative absorption diagnostics
+
+Step-by-Step Reproduction
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+Run the complete analysis:
+```
+```bash
+python run_experiments.py
+Alternatively, generate individual figures:
+```
+```bash
+python figures/fig1_example_spectra.py
+python figures/fig3_bandwidth_distribution.py
+python figures/fig4_negative_absorption.py
+```
+Important Notes
+This repository contains the ALGORITHM only, not the full GC-500K dataset
+
+The full 500,000-sample dataset is available separately (see reference below)
+
+All code is deterministic with proper seeding for exact reproducibility
+
+Numerical results are bitwise identical to those in the paper
+
+Dataset Reference
+The full GC-500K dataset (500,000 grating coupler spectra with geometric parameters) is published separately. Please cite:
+
+[Reference to be added: GC-500K Dataset Paper]
+
+Citation
+If you use this code in your research, please cite our paper:
+
+[Reference to be added: Physics Constraint Paradox Paper]
