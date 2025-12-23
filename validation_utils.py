@@ -5,6 +5,8 @@ Contains functions for computing:
 - Energy conservation error
 - Effective bandwidth
 - Negative absorption detection
+
+This suite exposes hidden physical failures missed by mean statistics.
 """
 
 import numpy as np
