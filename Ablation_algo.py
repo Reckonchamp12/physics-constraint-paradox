@@ -3,9 +3,11 @@ Ablation variants for the grating coupler generator.
 
 Contains four modified versions of the reference generator:
 A: No Energy Conservation Enforcement
-B: No Fabry-Perot Oscillations
+B: No Fabry-Perot Oscillations  
 C: Fixed Bandwidth (No Geometry Dependence)
 D: No Measurement Noise
+
+Each variant is structurally identical, differing by exactly one physics component.
 """
 
 import numpy as np
