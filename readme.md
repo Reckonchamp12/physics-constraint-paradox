@@ -73,21 +73,21 @@ Each variant is **structurally identical**, differing by exactly one physics com
 ### Example Spectrum (Reference Generator)
 Shows physically realistic resonance and global energy conservation.
 
-![Example Spectrum](figures/figure1_example_spectra.png)
+![Example Spectrum](figures/example_spectra.jpeg)
 
 ---
 
 ### Effective Bandwidth Distribution (Reference vs No Fabry–Perot)
 Demonstrates the dominant role of Fabry–Perot oscillations in spectral variability.
 
-![Bandwidth Distribution](figures/figure3_bandwidth_distribution.png)
+![Effective Spectral Bandwidth Distribution](figures/Effective_Spectral_Bandwidth_Distribution.jpeg)
 
 ---
 
 ### Negative Absorption Diagnostic (Beyond Mean Statistics)
 Reveals localized physical violations invisible to average-based validation.
 
-![Negative Absorption](figures/figure4_negative_absorption.png)
+![Negative Absorption](figures/negative_absorption.jpeg)
 
 ---
 
@@ -100,9 +100,9 @@ physics-constraint-paradox/
 ├── validation_utils.py # Physical validation metrics
 ├── run_experiments.py # Reproduces all paper figures
 ├── figures/ # Saved figure outputs
-│ ├── fig1_example_spectra.py
-│ ├── fig3_bandwidth_distribution.py
-│ └── fig4_negative_absorption.py
+│ ├── example_spectra.jpeg
+│ ├── Effective_Spectral_Bandwidth_Distribution.jpeg
+│ └── negative_absorption.jpeg)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
