@@ -20,14 +20,6 @@ This repository **implements the algorithm**, **not the large dataset** derived 
 - A **validation suite** exposing hidden physical failures missed by mean statistics
 - A **reproducible research codebase** supporting the paper’s figures and conclusions
 
----
-
-## ❌ What This Repository Is Not
-
-- ❌ Not a neural network
-- ❌ Not an inverse design optimizer
-- ❌ Not the GC-500K dataset (released separately)
-- ❌ Not a full-wave EM solver
 
 ---
 
