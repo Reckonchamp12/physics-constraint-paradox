@@ -104,7 +104,7 @@ The full GC-500K dataset (500,000 grating coupler spectra with geometric paramet
 
 ## Citation
 If you use this code in your research, please cite:
-[Reference to be added: Physics Constraint Paradox Paper]
+[Ray, R. D., The Physics Constraint Paradox: When Removing Explicit Constraints Improves Physics-Informed Data for Machine Learning, (https://arxiv.org/pdf/2512.22261)]
 
 📄 License
 MIT License - see LICENSE file for details.
